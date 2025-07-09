@@ -65,15 +65,16 @@ export default function Component() {
                 <div className="w-24 h-px bg-gradient-to-r from-transparent via-white to-transparent mx-auto opacity-50" />
               </motion.div>
             </motion.div>
+            
 
             {/* Footer with credit */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5, duration: 0.8 }}
-              className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-center space-y-2 w-full"
+              className="  text-center space-y-2 w-full"
             >
-              <p className="text-gray-400 text-sm">Coming Soon</p>
+              <p className="text-gray-400 text-sm mt-10">Coming Soon</p>
               <p className="text-gray-600 text-xs">
                 Built by <span className="text-gray-400">Psycode Labs</span>
               </p>
