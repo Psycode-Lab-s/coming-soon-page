@@ -84,6 +84,23 @@ const Preloader = ({ onLoadingComplete }: PreloaderProps) => {
     <div className="relative h-screen bg-[#0e0c15] flex items-center justify-center overflow-hidden">
       <LogoScreen />
       <TextScreen />
+
+      {/* Psycode Labs Credit */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 2, duration: 1 }}
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+      >
+        <a
+          href="https://psycodelabs.lk/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/40 hover:text-white/60 transition-colors duration-300 text-sm font-light"
+        >
+          A product of Psycode Labs
+        </a>
+      </motion.div>
     </div>
   )
 }

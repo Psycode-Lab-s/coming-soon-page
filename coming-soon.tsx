@@ -74,9 +74,9 @@ export default function Component() {
               transition={{ delay: 1.5, duration: 0.8 }}
               className="  text-center space-y-2 w-full"
             >
-              <p className="text-gray-400 text-sm mt-10">Coming Soon</p>
+              <p className="text-gray-400 text-xl mt-10">Coming Soon</p>
               <p className="text-gray-600 text-xs">
-                Built by <span className="text-gray-400">Psycode Labs</span>
+                Built by <span className="text-gray-400"><a href="https://psycodelabs.lk/">Psycode Lab's</a></span>
               </p>
             </motion.div>
           </div>
